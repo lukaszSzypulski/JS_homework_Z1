@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <title>Homework Z1</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="column half-column">
+
+        <h3>Formularz</h3>
+
+        <form id="element-form">
+            <div class="row">
+                <div class="column label-column">
+                    <label>Imię</label>
+                </div>
+                <div class="column input-column">
+                    <input type="text" name="name"/>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="column label-column">
+                    <label>Numer</label>
+                </div>
+                <div class="column input-column">
+                    <input type="number" name="number"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column label-column">
+                    <label>Hasło</label>
+                </div>
+                <div class="column input-column">
+                    <input type="password" name="password"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column label-column">
+                    <label>Powtórz hasło</label>
+                </div>
+                <div class="column input-column">
+                    <input type="password" name="password2"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column label-column">
+                    <label>Data</label>
+                </div>
+                <div class="column input-column">
+                    <input type="date" name="date" value="2020-11-06"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column label-column">
+                    <label>Checkbox</label>
+                </div>
+                <div class="column input-column">
+                    <input type="checkbox" name="checkbox"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column label-column">
+                    <label>Radio</label>
+                </div>
+                <div class="column input-column">
+                    <input type="radio" name="favouriteNumber" value="1"><label class="radio-label">1</label>
+                    <input type="radio" name="favouriteNumber" value="2"><label class="radio-label">2</label>
+                    <input type="radio" name="favouriteNumber" value="3"><label class="radio-label">3</label>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="column label-column">
+                    <label>Zwierzę</label>
+                </div>
+                <div class="column input-column">
+                    <select name="favouritePet">
+                        <option value="cat">Kot</option>
+                        <option value="dog">Pies</option>
+                        <option value="fish">Ryba</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="pull-right">
+                    <button type="button" class="btn" onclick="addElement();">Dodaj</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+    <div class="column half-column">
+        <h3>Baza danych</h3>
+
+        <div id="db"></div>
+
+    </div>
+</div>
+
+</body>
+</html>
+
+
+

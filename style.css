@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 80%
+}
+
+.row {
+    vertical-align: middle;
+    padding: 0.2rem;
+    overflow: auto;
+}
+
+.column {
+    float: left;
+    padding: 0.5rem;
+}
+
+.column.full-column {
+    width: 100%;
+}
+
+.column.half-column {
+    width: 50%;
+}
+
+.column.label-column {
+    width: 30%;
+    text-align: right;
+}
+
+.column.input-column {
+    width: 70%;
+}
+
+label {
+    font-weight: bold;
+    color: dimgray;
+}
+
+input[type="text"], input[type='password'], input[type='number'], input[type='date'], select {
+    width: 100%;
+    border: 1px solid dimgray;
+    border-radius: 4px;
+    padding: 0.3rem;
+}
+
+.pull-right {
+    float: right;
+}
+
+.btn {
+    border: 1px solid dimgray;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: white;
+    background-color: darkviolet;
+    cursor: pointer;
+}
+
+h3 {
+    color: darkviolet;
+    font-weight: bold;
+    text-align: center;
+}
+
+.element {
+    padding: 0.5rem;
+}
+
+.invalid {
+    color: red;
+}
+
+input.invalid {
+    border-color: red;
+    color: black;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #ffcccc;
+}
